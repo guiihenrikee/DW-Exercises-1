@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Lista de Exercícios I</title>
+</head>
+<body>
+    <h1>Lista de Exercícios I - Programação JavaScript</h1>
+    <div class="exe">
+        <h3>Exercício 1</h3>
+        <h4>
+            1 - Escreva um programa que mostre a soma de todos os divisores de um dado número X. 
+            Um divisor é qualquer número menor que X cujo resto da divisão é igual a 0.
+        </h4>
+        <div>
+            <textarea class="codigos" id="codigo1" cols="70" rows="11"></textarea>
+        </div>
+        <div>
+            <input type="text" id="value" placeholder="Digite um número:">
+        </div>
+        <button onclick="Exe_01()">Testar</button>
+        <div id="result-box">
+            <textarea id="resultbox" rows="2" cols="20" placeholder="Resultado:"></textarea>
+        </div>
+    </div>
+
+    <div class="exe">
+        <h3>Exercício 2</h3>
+        <h4>
+            2 – Considere dois pontos no espaço 2D com as seguintes coordenadas: A(x 1 , y 1 ) e B(x 2 ,y 2 ). A
+            distância euclidiana D, entre estes pontos é dada pela seguinte fórmula:
+        </h4>
+        <img src="/image1.png">
+        <h4>
+            Escreva um programa que calcule tal distância para coordenadas de dois pontos informados
+            pelo usuário.
+        </h4>
+        <div>
+            <textarea class="codigos" id="codigo2" cols="70" rows="11"></textarea>
+        </div>
+        <div>
+            <input type="text" id="valueA1" size="23" placeholder="Digite a coordenada A1:">
+            <input type="text" id="valueA2" size="23" placeholder="Digite a coordenada A2">
+        </div>
+        <div>
+            <input type="text" id="valueB1" size="23" placeholder="Digite a coordenada B1">
+            <input type="text" id="valueB2" size="23" placeholder="Digite a coordenada B2">
+        </div>
+        <button onclick="Exe_02()">Testar</button>
+        <div id="result-box">
+            <textarea id="resultbox2" rows="2" cols="20" placeholder="Resultado:"></textarea>
+        </div>
+    </div>
+
+    <div class="exe">
+        <h3>Exercício 3</h3>
+        <h4>
+            3 - Dada uma frase de entrada por um usuário, faça um programa que conte a ocorrência de
+            cada palavra nesta frase. O programa não deve distinguir letras maiúsculas e minúsculas.
+            Exemplo: “Faça chuva ou faça sol.”
+            Resultado: faça (2), chuva (1), ou, (1), sol (1)
+        </h4>
+        <div>
+            <textarea class="codigos" id="codigo3" cols="70" rows="12"></textarea>
+        </div>
+        <div>
+            <textarea id="value-exe3" cols="63" rows="2" placeholder="Digite uma frase:"></textarea>
+        </div>
+        <button class="butn" onclick="Exe_03();">Testar</button>
+        <div id="result-box">
+            <textarea id="resultbox3" rows="2" cols="63" placeholder="Resultado:"></textarea>
+        </div>
+    </div>
+
+    <div class="exe">
+        <h3>Exercício 4</h3>
+        <h4>
+            4 – Faça um programa que leia uma string de números como entrada de um usuário que
+            representa uma matriz e diga qual dimensão dela (quantidade de linhas e colunas). As linhas
+            da matriz são separadas por um caractere de ponto e vírgula ‘;’e as colunas são separadas por
+            um espaço vazio ‘ ’, como no exemplo:
+            Entrada: 1 4 6 8; 3 5 6 7; 1 3 2 4
+            Resultado: Essa é uma matriz de dimensão 3 x 4.
+        </h4>
+        <div>
+            <textarea class="codigos" id="codigo4" cols="70" rows="17"></textarea>
+        </div>
+        <div>
+            <textarea id="value-exe4" cols="40" rows="2" placeholder="Digite uma string de números:"></textarea>
+        </div>
+        <button class="butn" onclick="Exe_04()">Testar</button>
+        <div id="result-box">
+            <textarea id="resultbox4" rows="2" cols="40" placeholder="Resultado:"></textarea>
+        </div>
+    </div>
+
+    <div class="exe">
+        <h3>Exercício 5</h3>
+        <h4>
+            5 – Dado um número inteiro positivo N como entrada de um usuário, escreva um programa
+            que mostre os primeiros N números da sequência de Fibonacci. (A sequência de Fibonacci é
+            iniciada por 0 e 1, e o próximo número é sempre a soma dos dois últimos). Exemplo:
+            Entrada: 8
+            Resultado: 0, 1, 1, 2, 3, 5, 8, 13
+        </h4>
+        <div>
+            <textarea class="codigos" id="codigo5" cols="70" rows="16"></textarea>
+        </div>
+        <div>
+            <input type="text" id="value-exe5" placeholder="Digite um número:">
+        </div>
+        <button onclick="Exe_05()">Testar</button>
+        <div id="result-box">
+            <textarea id="resultbox5" rows="1" cols="30" placeholder="Resultado:"></textarea>
+        </div>
+    </div>
+</body>
+</html>

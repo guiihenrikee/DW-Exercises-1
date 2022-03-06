@@ -1,0 +1,37 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+body {
+    padding: 2% 25%;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+h1, h3, h4{
+    text-align: center;
+}
+.codigos {
+    font-family: "Consolas";
+    font-size: medium;
+}
+textarea, input {
+    font-family: "Consolas";
+}
+#result-box {
+    padding-top: 1%;
+}
+.exe {
+    padding: 2% 2%;
+    float: none;
+    border: 5px solid black;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.frase {
+    width: 10%;
+}
